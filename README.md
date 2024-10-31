@@ -30,7 +30,7 @@ Llama 3.1 405B API at super fast speed for free, do I need to say more
 'nthropic' 
 ## Installation
 API KEY HERE: 
-https://cloud.sambanova.ai/apis \ 
+https://cloud.sambanova.ai/apis \
 Place KEY inside Config file\
 IF using Windows Port version\
 ComfyUI Folder\
