@@ -8,7 +8,7 @@ Nova also has a streaming mode feauture I have not used much if at all other tha
 Gpt will help if you dont want to read the API docs. \
 https://community.sambanova.ai/c/welcome/4 \
 This is the speed of tokens chat for the top models. \
-Getting Cerebras API (WIP) \ 
+Getting Cerebras API (WIP) \
 ![image](https://github.com/user-attachments/assets/9af8233b-b385-4676-92d5-9674afb63ae6)
 ## CONS & PROS
 Cons\
