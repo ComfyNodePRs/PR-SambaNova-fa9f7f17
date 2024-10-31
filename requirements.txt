@@ -1,1 +1,8 @@
-yt_dlp
+requests
+pydantic
+fastapi
+sentry_sdk
+tenacity
+openai
+tiktoken
+anthropic
