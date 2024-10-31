@@ -18,8 +18,7 @@ Not first place for speed of tokens\
 Pros\
 Llama 3.1 70B model has a 64k token limit for context, the highest ive seen for these API's but the model will lose most of its greatness around the 16k mark and heavy drop off at 32K\
 Llama 3.1 8B model has a 16K token limit making it great for simple but long tasks again 8B model will lose most of its greatness around 8k so simple tasks only\
-Llama 3.1 405B API at super fast speed for free, do I need to say more\
-
+Llama 3.1 405B API at super fast speed for free, do I need to say more
 ## Dependencies
 'requests' 
 'pydantic' 
