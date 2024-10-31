@@ -4,9 +4,9 @@ The SambaNova API Node gives ComfyUI users the second fastest token output LLM's
 The Nova APIv1 comes with a chat or completion type of chat. \
 Chat is like all other chat bots where completion will take the users prompt and system prompt if used to make a mock chat between the LLM and user. \
 This has not been used much myself so I dont know the perks of using completion chat. \
-Nova also has a streaming mode feauture I have not used much if at all other than testing. \ 
-Gpt will help if you dont want to read the API docs. \ 
-https://community.sambanova.ai/c/welcome/4 \ 
+Nova also has a streaming mode feauture I have not used much if at all other than testing. \
+Gpt will help if you dont want to read the API docs. \
+https://community.sambanova.ai/c/welcome/4 \
 This is the speed of tokens chat for the top models. \
 ![image](https://github.com/user-attachments/assets/9af8233b-b385-4676-92d5-9674afb63ae6)\
 ## CONS & PROS
