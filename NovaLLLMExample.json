@@ -1,0 +1,271 @@
+{
+  "last_node_id": 94,
+  "last_link_id": 78,
+  "nodes": [
+    {
+      "id": 89,
+      "type": "Note",
+      "pos": {
+        "0": 2704,
+        "1": 53
+      },
+      "size": {
+        "0": 427.88018798828125,
+        "1": 64.82952117919922
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "Token count of the convo, this will give you a good idea when when token cap is near limit"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 88,
+      "type": "Note",
+      "pos": {
+        "0": 2435,
+        "1": 743
+      },
+      "size": {
+        "0": 250.63558959960938,
+        "1": 116.93695831298828
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "Convo_ID is how the context is used, copy and paste this ID after the first prompt to go on with the same context.\nContext will be saved in the Nova.json file"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 87,
+      "type": "SambaNovaLLMNode",
+      "pos": {
+        "0": 2219,
+        "1": 296
+      },
+      "size": {
+        "0": 400,
+        "1": 406
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "generated_text",
+          "type": "STRING",
+          "links": [
+            78
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "token_count",
+          "type": "INT",
+          "links": [
+            77
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "conversation_id",
+          "type": "STRING",
+          "links": [
+            76
+          ],
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SambaNovaLLMNode"
+      },
+      "widgets_values": [
+        "Hello",
+        "Meta-Llama-3.1-405B-Instruct",
+        1500,
+        0.7,
+        1,
+        1,
+        "chat",
+        "Be a funny guy named Joe",
+        "",
+        "",
+        1,
+        false
+      ]
+    },
+    {
+      "id": 90,
+      "type": "Note",
+      "pos": {
+        "0": 1937,
+        "1": 376
+      },
+      "size": {
+        "0": 269.6723937988281,
+        "1": 295.73260498046875
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "The request_type might need changed based on users use case\nChat-normal LLM Chat \nCompetion- Mock chat based on prompt\nCompetion \n\nThe stop_sequemces is a more complex rule set for the models to follow. Ask The LLM and it should explain\n\nMax tokens I set to 1500 as good practice I would not go over 2k tokens. \n\nStreaming mode is a OpenAI thing that Nova API has along with repetiton_penalty. Ask the LLM for more detail."
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 94,
+      "type": "easy showAnything",
+      "pos": {
+        "0": 2189,
+        "1": 759
+      },
+      "size": [
+        225.67498782337316,
+        98.79739137729098
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 76,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy showAnything"
+      }
+    },
+    {
+      "id": 92,
+      "type": "easy showAnything",
+      "pos": {
+        "0": 2703,
+        "1": 156
+      },
+      "size": [
+        458.67498782337316,
+        71.547391377291
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 77,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy showAnything"
+      }
+    },
+    {
+      "id": 93,
+      "type": "easy showAnything",
+      "pos": {
+        "0": 2723,
+        "1": 285
+      },
+      "size": [
+        628.4249878233732,
+        465.59739137729105
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "anything",
+          "type": "*",
+          "link": 78,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "*",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "easy showAnything"
+      }
+    }
+  ],
+  "links": [
+    [
+      76,
+      87,
+      2,
+      94,
+      0,
+      "*"
+    ],
+    [
+      77,
+      87,
+      1,
+      92,
+      0,
+      "*"
+    ],
+    [
+      78,
+      87,
+      0,
+      93,
+      0,
+      "*"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.9090909090909091,
+      "offset": [
+        -1358.2249878233736,
+        13.35260862270899
+      ]
+    }
+  },
+  "version": 0.4
+}
