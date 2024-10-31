@@ -8,29 +8,38 @@ Nova also has a streaming mode feauture I have not used much if at all other tha
 Gpt will help if you dont want to read the API docs. \
 https://community.sambanova.ai/c/welcome/4 \
 This is the speed of tokens chat for the top models. \
-![image](https://github.com/user-attachments/assets/9af8233b-b385-4676-92d5-9674afb63ae6)\
+Getting Cerebras API (WIP) \ 
+![image](https://github.com/user-attachments/assets/9af8233b-b385-4676-92d5-9674afb63ae6)
 ## CONS & PROS
 Cons\
-\
-\
-\
+Not first place for speed of tokens\
+405B model has a low 10 RPM(Request Per Minute) cap\
+405B model has a low 8K token context cap this is really low for this model\
 Pros\
-\
-\
-\
+Llama 3.1 70B model has a 64k token limit for context, the highest ive seen for these API's but the model will lose most of its greatness around the 16k mark and heavy drop off at 32K\
+I
+Llama 3.1 8B model has a 16K token limit making it great for simple but long tasks again 8B model will lose most of its greatness around 8k so simple tasks only\
+Llama 3.1 405B API at super fast speed for free, do I need to say more\
 
 ## Dependencies
-'' py lib
+'requests' 
+'pydantic' 
+'fastapi' 
+'sentry_sdk' 
+'tenacity' 
+'openai' 
+'tiktoken'
+'nthropic' 
 ## Installation
 IF using Windows Port version\
 ComfyUI Folder\
-``````\
+```cmd pip install requests pydantic fastapi sentry_sdk tenacity openai tiktoken anthropic```\
 Inside Custom_nodes Folder\
-``````\
+```git clone ```\
 IF using Matrix \
 Inside venv\Scripts\
 ```activate```\
-```pip install ```\
+```pip install requests pydantic fastapi sentry_sdk tenacity openai tiktoken anthropic```\
 Inside Custom_nodes Folder\
 ```git clone ```\
 ComfyUI-Manager (WIP)
