@@ -43,7 +43,7 @@ Inside venv\Scripts\
 Inside Custom_nodes Folder\
 ```git clone https://github.com/Apache0ne/ComfyUI-SambaNova.git```\
 ComfyUI-Manager (WIP)
-##Extra Info
+## Extra Info
 TOS\
 https://community.sambanova.ai/t/sambanova-cloud-terms-of-service/244 \
 Dev TOS\
