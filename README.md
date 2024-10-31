@@ -45,6 +45,6 @@ Inside Custom_nodes Folder\
 ComfyUI-Manager (WIP)
 ##Extra Info
 TOS\
-https://community.sambanova.ai/t/sambanova-cloud-terms-of-service/244
+https://community.sambanova.ai/t/sambanova-cloud-terms-of-service/244 \
 Dev TOS\
 https://community.sambanova.ai/t/sambanova-developer-community-terms-of-use/133
