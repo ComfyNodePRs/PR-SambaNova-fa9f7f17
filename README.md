@@ -28,6 +28,8 @@ Llama 3.1 405B API at super fast speed for free, do I need to say more
 'openai' 
 'tiktoken'
 'nthropic' 
+API KEY HERE: 
+https://cloud.sambanova.ai/apis
 ## Installation
 IF using Windows Port version\
 ComfyUI Folder\
@@ -41,3 +43,8 @@ Inside venv\Scripts\
 Inside Custom_nodes Folder\
 ```git clone https://github.com/Apache0ne/ComfyUI-SambaNova.git```\
 ComfyUI-Manager (WIP)
+##Extra Info
+TOS\
+https://community.sambanova.ai/t/sambanova-cloud-terms-of-service/244
+Dev TOS\
+https://community.sambanova.ai/t/sambanova-developer-community-terms-of-use/133
