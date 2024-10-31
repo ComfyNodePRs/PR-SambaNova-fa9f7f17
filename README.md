@@ -14,7 +14,7 @@ Getting Cerebras API (WIP) \
 Cons\
 Not first place for speed of tokens\
 405B model has a low 10 RPM(Request Per Minute) cap\
-405B model has a low 8K token context cap this is really low for this model\
+405B model has a low 8K token context cap, this is really low for this model\
 Pros\
 Llama 3.1 70B model has a 64k token limit for context, the highest ive seen for these API's but the model will lose most of its greatness around the 16k mark and heavy drop off at 32K\
 I
