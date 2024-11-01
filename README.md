@@ -32,6 +32,8 @@ Llama 3.1 405B API at super fast speed for free, do I need to say more
 API KEY HERE: 
 https://cloud.sambanova.ai/apis \
 Place KEY inside Config file\
+ComfyUI-Manager (Rec)\
+Can Download from Comfy Manager\
 IF using Windows Port version\
 ComfyUI Folder\
 ```cmd pip install requests pydantic fastapi sentry_sdk tenacity openai tiktoken anthropic```\
@@ -42,8 +44,7 @@ Inside venv\Scripts\
 ```activate```\
 ```pip install requests pydantic fastapi sentry_sdk tenacity openai tiktoken anthropic```\
 Inside Custom_nodes Folder\
-```git clone https://github.com/Apache0ne/ComfyUI-SambaNova.git```\
-ComfyUI-Manager (WIP)
+```git clone https://github.com/Apache0ne/ComfyUI-SambaNova.git```
 ## Extra Info
 TOS\
 https://community.sambanova.ai/t/sambanova-cloud-terms-of-service/244 \
