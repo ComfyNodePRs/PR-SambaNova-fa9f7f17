@@ -1,0 +1,15 @@
+[project]
+name = "sambanova"
+description = "Super Fast LLM's llama3.1-405B,70B,8B and more"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["requests", "pydantic", "fastapi", "sentry_sdk", "tenacity", "openai", "tiktoken", "anthropic"]
+
+[project.urls]
+Repository = "https://github.com/Apache0ne/SambaNova"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "SambaNova"
+Icon = ""
